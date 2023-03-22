@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cloudify</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href= "styles.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        <!-- <link href="style.css" rel="stylesheet"> -->
+        <div class="head">
+            <div class="head1"><span><img src="img.jpg" alt="cloudify-logo" class="img-head" /></span>Cloudify</div>
+            <div class="head2">
+              <ul class="list">
+                <li>Home</li>
+                <li>Career</li>
+                <li>About</li>
+                <li>Contact</li>
+              </ul>
+            </div>
+            </div>
+    </head>
+    <body>
+        <div class='form-heading'>
+        <p>
+            Form
+        </p>
+    </div>
+    <div class="container">
+        <form class="mx-1 mx-md-4 form-in">
+            <div class="col-md-4 form-input">
+            <label for="name" class="form-label form-label">Name : </label>
+            <input type="text" id="name" placeholder='Please enter name' class='form-label form-input1' ></input>
+            <div class="valid-feedback valid-feedbac" id="name-valid">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback invalid-feedbac" id="name-invalid">
+                    Please enter valid name.
+                  </div>
+            </div>
+            <div class="col-md-4 form-input">
+            <label for="des" class="form-label form-label">Description: </label>
+            <input  type="text" id="des" placeholder='Please write some description' class=' form-label form-input1'></input>
+            <div class="valid-feedback valid-feedbac" id="des-valid">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback invalid-feedbac" id="des-invalid">
+                    Please enter valid description.
+                  </div>
+            </div>
+            <div class="col-md-4 form-input">
+            <label for="dd" class="form-label form-label">Due Date : </label>
+            <input  type="text" id="dd" placeholder='dd/mm/yyyy' class=' form-label form-input1'></input>
+            <div class="valid-feedback valid-feedbac" id="dd-valid">Looks good!</div>
+           <div class="invalid-feedback invalid-feedbac" id="dd-invalid">Please enter valid Due-date.</div>
+            </div>
+            <div class="col-md-4 form-input">
+            <label for="sd" class="form-label form-label">Start Date : </label>
+            <input  type="text" id="sd" placeholder='dd/mm/yyyy' class='form-label form-input1'></input>
+            <div class="valid-feedback valid-feedbac" id="sd-valid">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback invalid-feedbac" id="sd-invalid">
+                    Please enter valid Start-date.
+                  </div>
+            </div>
+            <div class="form-input">
+            <button type="button" class="btn btn-secondary btnn" onclick="validation()">Submit</button>
+            </div>
+        </form>
+    </div>
+        <script src="index.js" ></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </body>
+</html>
